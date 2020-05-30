@@ -1,0 +1,8 @@
+.footer__links{
+  list-style: none;
+  padding: 0;
+}
+
+.footer__links > li{
+  display: inline;
+}

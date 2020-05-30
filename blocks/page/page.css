@@ -1,0 +1,10 @@
+.page {
+  /* Установил max и min ширину, если ставить ширину из макета как max, то на широком экране выглядит не очень
+  Так же не очень выглядит, если убрать max ограничениее совсем*/
+  /* max-width: 1600px; */
+  /* min-width: 1280px; */
+  width: 1280px;
+  margin: 0 auto;
+  font-family: 'Inter', Arial, sans-serif;
+  color: #ffffff;
+}

@@ -1,0 +1,10 @@
+.header__links{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 6px;
+}
+
+.header__links > li{
+  display: inline;
+}
