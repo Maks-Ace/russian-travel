@@ -1,11 +1,21 @@
 @import url("./_type/header__lang-link_type_active.css");
 @import url("./_type/header__lang-link_type_inactive.css");
-
+/* Разделение между импортом и медиа */
+@media screen and (min-width:320px){
 .header__lang-link{
-  width: 30px;
-  height: 28px;
+  font-size: 18px;
+  line-height: 133%;
+}
+}
+@media screen and (min-width: 768px){
+.header__lang-link{
   font-size: 24px;
   line-height: 28px;
+}
+}
+
+
+.header__lang-link{
   margin-left: 18px;
   color: #ffffff;
 }
