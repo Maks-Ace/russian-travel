@@ -1,5 +1,7 @@
 .footer__link{
   margin: 0;
   margin-right: 18px;
+  text-decoration: none;
+  color: #ffffff;
 
 }
