@@ -1,17 +1,19 @@
 @import url("./__links/footer__links.css");
 @import url("./__link/footer__link.css");
+@import url("./__li/footer__li.css");
+@import url("./__li/_first/footer__li_first.css");
 @import url("./__copyright/footer__copyright.css");
 /* Разделение import и media */
 
 .footer {
   display: flex;
   justify-content: space-between;
+  margin: 0 16px 16px;
 }
 
 @media screen and (max-width: 550px) {
   .footer {
     flex-direction: column;
-    margin: 0 16px 16px;
     align-items: start;
     align-self: start;
   }
@@ -20,7 +22,6 @@
 @media screen and (min-width: 550px) {
   .footer {
     flex-direction: column;
-    margin: 0 16px 16px;
     align-items: center;
     align-self: center;
   }

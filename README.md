@@ -12,6 +12,7 @@
 Проект о путешествии по России.
 Проект - одностроничный сайт создан на основании макета [Ссылка на макет в Figma](https://www.figma.com/file/OyRWEjU6wBwRe1hapzQoLx/Sprint-3%3A-Russia-%2F-desktop-%2B-mobile?node-id=28503%3A0).
 
+**Ознакомиться с готовый проектом можно по [ссылке на github-pages](https://maks-ace.github.io/russian-travel/)**
 
 
 

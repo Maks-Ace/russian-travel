@@ -1,7 +1,13 @@
 @import url("./__logo/header__logo.css");
 @import url("./__lang-link/header__lang-link.css");
 @import url("./__links/header__links.css");
-/* Разделелние между медиазапросами и импортом*/
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  position: relative;
+}
 
 @media screen and (max-width: 768px) {
   .header {
@@ -19,12 +25,4 @@
   .header {
     margin: 28px 48px 0;
   }
-}
-
-.header {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  justify-content: space-between;
-  position: relative;
 }
