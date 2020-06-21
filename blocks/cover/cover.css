@@ -1,5 +1,4 @@
 @import url("./__image/cover__image.css");
-@import url("./__overlay/cover__overlay.css");
 @import url("./__text/cover__text.css");
 @import url("./__title/cover__title.css");
 @import url("./__subtitle/cover__subtitle.css");
@@ -9,6 +8,21 @@
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
   grid-template-areas: "overlap";
+}
+
+.cover::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #2a2c2f;
+  z-index: 3;
+  grid-area: overlap;
+  opacity: .3;
+  transition: opacity 0.3s ease;
+}
+
+.cover:hover::after {
+  opacity: .8;
 }
 
 @media screen and (max-width: 768px) {

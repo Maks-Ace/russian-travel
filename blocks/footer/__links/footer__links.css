@@ -2,9 +2,10 @@
   margin: 0;
   list-style: none;
   padding: 0;
+  display: grid;
 }
 
 @media screen and (min-width: 550px) {
   .footer__links {
-    padding: 0;
+    grid-template-columns: repeat(5, auto);
   }

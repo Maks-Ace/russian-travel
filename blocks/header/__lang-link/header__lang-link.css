@@ -1,9 +1,7 @@
-@import url("./_type/header__lang-link_type_inactive.css");
-/* Разделение между импортом и медиа */
-
 .header__lang-link {
   margin-left: 18px;
   color: #ffffff;
+  text-decoration: none;
 }
 
 .header__lang-link:hover {
