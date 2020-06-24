@@ -7,8 +7,3 @@
   font-size: 12px;
   line-height: 18px;
 }
-
-/* Визуально в макете цифры выглядят не жирными, поэтому добавил обертку span */
-.intro__list>li>span{
-  font-weight: normal;
-}

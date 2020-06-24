@@ -7,17 +7,23 @@
 @media screen and (max-width: 768px) {
   .lead__subtitle {
     width: 288px;
-    margin: 16px 0 40px;
+    margin: 8px 16px 40px;
     font-size: 16px;
-    line-height: 125%;
+    line-height: 20px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .lead__subtitle {
     width: 640px;
-    margin: 64px 0 32px;
+    margin: 24px 0 56px;
     font-size: 30px;
-    line-height: 120%;
+    line-height: 36px;
+  }
+}
+
+@media screen and (min-width:1280px) {
+  .lead__subtitle {
+    margin-bottom: 64px;
   }
 }

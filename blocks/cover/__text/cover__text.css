@@ -1,5 +1,5 @@
 .cover__text {
-grid-area: overlap;
-align-self: center;
-z-index: 4;
+  grid-area: overlap;
+  z-index: 4;
+  align-self: center;
 }
